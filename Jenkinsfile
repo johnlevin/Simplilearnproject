@@ -24,7 +24,7 @@ node {
   
   stage ('Notifications') {
     mail body: "Project Execution Completed with status : " + currentBuild.result ,
-                     subject: 'Project Execution Notification',
-                     to: 'abc@abc.com'
+                     subject: 'Simplilearn Project1 for Dockerizing Jenkins Pipeline',
+                     to: 'john.levin@globallogic.com'
      }
  }
